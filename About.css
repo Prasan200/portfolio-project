@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+}
+
+div {
+    background-color: #333;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 25px;
+    margin: 60px 450px;
+    border-radius: 10%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+div:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px white; 
+}
+div h2 {
+    padding-bottom: 30px;
+    font-size: 30px;
+    color: white;
+}
+div p {
+    font-size: 20px;
+    margin: 0 40px;
+    color: white;
+    text-align: justify;
+    line-height: 1.42;
+}
+header{
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 15px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header a:hover{
+    color: #007BFF;
+}
+header #nxt{
+    margin-left: 90%;
+    margin-top: -2px;
+}
+
